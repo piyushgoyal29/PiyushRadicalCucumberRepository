@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.datatableForGetRequestSD.RunnerDataTableGETRequestTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.449 sec <<< FAILURE!
+Then user validate following in json(Scenario: Test my Get Method106)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.datatableForGetRequestSD.DatatableGETRequestTestSD.user_validate_following_in_json(DatatableGETRequestTestSD.java:53)
+	at ?.Then user validate following in json(DataTableGetRequestDataDriven.feature:7)
+
+Scenario: Test my Get Method106  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.datatableForGetRequestSD.DatatableGETRequestTestSD.user_validate_following_in_json(DatatableGETRequestTestSD.java:53)
+	at ?.Then user validate following in json(DataTableGetRequestDataDriven.feature:7)
+

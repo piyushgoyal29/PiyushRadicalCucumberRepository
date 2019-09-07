@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "test google status code",
+        "description": "",
+        "id": "testing-google;test-google-status-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301732416,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User hit google applicaiton",
+            "match": {
+              "location": "TestGoogleStatusCodeSD.User_hit_google_applicaiton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 399416,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user checks \"200\" status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 13
+                }
+              ],
+              "location": "TestGoogleStatusCodeSD.user_checks_status_code(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Google",
+    "description": "",
+    "id": "testing-google",
+    "keyword": "Feature",
+    "uri": "TestGoogleStatusCode.feature"
+  }
+]
